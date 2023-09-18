@@ -1,0 +1,32 @@
+:root {
+  font-family: monospace, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  background-color: #1d2326;
+  color: #bfa38a;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  width: 35rem;
+}
+
+button {
+  background-color: transparent;
+  color: inherit;
+  border: 1px solid #bfa38a;
+  padding: 0.7rem 3rem;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  font-size: 0.9rem;
+
+  &:hover {
+    background-color: #bfa38a;
+    color: #1d2326;
+    font-weight: bold;
+  }
+}
