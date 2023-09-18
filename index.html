@@ -1,32 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meme Generator</title>
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <section id="output" class="content">
-        <h1>Output</h1>
-        <h2 id="meme-el">Programmer memes</h2>
-        <h2 id="joke-el">Tell me something funny!</h2>
-        <h2 id="quote-el">Give me some wisdom...</h2>
-        <h2 id="riddle-el">I want a riddle!</h2>
-      </section>
-      <section class="sidebar">
-        <h2>Actions</h2>
-        <button onclick="showMeme()">Show a Meme</button>
-        <button onclick="showJoke()">Tell Me a Joke</button>
-        <button onclick="showQuote()">Random Quote</button>
-        <button onclick="showRiddle()">Riddle me</button>
-        <button id="riddle-reveal" class="reveal-btn">
-          Reveal Riddle Answer
-        </button>
-      </section>
-    </main>
-    <script src="./dist/index.js"></script>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
